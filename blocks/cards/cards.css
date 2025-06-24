@@ -25,3 +25,45 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* Cards Swap Assignment */
+
+.cards-1-layout ul li {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  overflow: hidden;
+  flex: 1;
+}
+ 
+.cards-2-swap-layout ul li {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 15px;
+  flex: 1;
+}
+ 
+.cards-1-section {
+  padding-top: 20px;
+  background-color: antiquewhite;
+}
+ 
+.cards-2-section {
+  padding-top: 20px;
+  background-color:darkgray
+}
+ 
+ 
+html[lang='ar'] .cards-card-body p {
+    color: green;
+}
+ 
+html[lang='en'] .cards-card-body p {
+  color: red;
+}
